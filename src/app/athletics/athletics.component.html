@@ -1,0 +1,20 @@
+<div id="alertPanel" style="text-align: center"></div>
+<div class="container-fluid">
+    <div class="col-md-4">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nombre</th>    
+                    <th>Categoria</th>  
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let athletic of athletics">
+                    <td><span>{{athletic.name}}</span></td>
+                    <td>{{athletic.category}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
